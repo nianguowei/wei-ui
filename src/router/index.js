@@ -9,7 +9,8 @@ const routes = [
     // name: 'Home',
     component: () => import('../views/Layout.vue'),
     children: [
-      { path: 'input', component: () => import('../views/Input'), name: '文本框' }
+      { path: 'input', component: () => import('../views/Input'), name: '文本框' },
+      { path: 'checkbox', component: () => import('../views/Checkbox'), name: '复选框' }
     ]
   }
 ]

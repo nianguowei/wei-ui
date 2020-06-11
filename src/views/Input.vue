@@ -1,7 +1,7 @@
 <template>
   <div>
     <WInput v-model="model.value"></WInput>
-    {{ model.value }}
+    双向绑定值：{{ model.value }}
   </div>
 </template>
 
@@ -15,7 +15,7 @@ export default {
   data () {
     return {
       model: {
-        value: 'tom'
+        value: ''
       }
     }
   }
