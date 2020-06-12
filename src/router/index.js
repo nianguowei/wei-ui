@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    // name: 'Home',
+    name: 'Home',
     component: () => import('../views/Layout.vue'),
     children: [
       { path: 'input', component: () => import('../views/Input'), name: '文本框' },
